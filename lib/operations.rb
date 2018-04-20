@@ -1,13 +1,13 @@
 def unsafe?(speed)
 	if (speed > 60) || (speed < 40)
-		"Drive Savely Please!"
+		true
 	else
-		"Thank you for being reasonable."
+		false
 	end
 end
 
 
 
 def not_safe?(speed)
-	((speed > 60) || (speed < 40))? "Drive Savely Please!" : "Thank you for being reasonable."
+	((speed > 60) || (speed < 40))? true : false
 end
