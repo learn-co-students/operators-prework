@@ -21,6 +21,7 @@ describe "Operations" do
 
   describe "#not_safe?" do
     it 'returns true if speed is greater than 60' do
+    end
       answer = not_safe?(79)
       expect(answer).to eq(true)
     end
@@ -41,5 +42,5 @@ describe "Operations" do
       expect(match).to include("?")
     end
   end
-  
+
 end
