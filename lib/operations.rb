@@ -12,7 +12,7 @@ end
 
 def not_safe?(speed)
   fastness = speed
-  puts (fastness < 40 || fastness > 60) ? return true : return false
+  puts (fastness < 40 || fastness > 60) ?: 
 	
 end
 	
