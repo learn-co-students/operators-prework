@@ -27,7 +27,7 @@ describe "Operations" do
 
     it 'returns true if speed is less than 40' do
       answer = not_safe?(35)
-      expect(answer).to eq(true)
+      expect(answer).to eq(false)
     end
 
     it 'returns false if the speed is between 40 and 60' do
@@ -41,5 +41,5 @@ describe "Operations" do
       expect(match).to include("?")
     end
   end
-  
+
 end
